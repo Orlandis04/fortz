@@ -1,0 +1,1 @@
+export default {"domain":"https://offlinegames.fun","cspFixed":true,"iframeSrc":"https://fortz.codeplaymaster.com/fortz/gamebox.html","symbolStr":"dG9seXItYXRvLWJ0bHJ5bA","category":"Action","packageName":"fortz","version":""};

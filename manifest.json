@@ -1,0 +1,49 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "manifest_version": 3,
+    "name": "__MSG_extensionName__",
+    "version": "1.0.5",
+    "description": "__MSG_extensionDescription__",
+    "default_locale": "en",
+    "icons": {
+        "128": "icon/128.png"
+    },
+    "offline_enabled": true,
+    "action": {
+        "default_title": "__MSG_extensionActionTitle__"
+    },
+    "background": {
+        "type": "module",
+        "service_worker": "/js/background.js"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "/game-source/assets/music/sound-591.mp3",
+                "/game-source/assets/music/sound-593.mp3",
+                "/game-source/assets/music/sound-594.mp3",
+                "/game-source/assets/music/sound-595.mp3",
+                "/game-source/assets/music/sound-596.mp3",
+                "/game-source/assets/music/sound-601.mp3",
+                "/game-source/assets/music/sound-602.mp3",
+                "/game-source/assets/music/sound-614.mp3",
+                "/game-source/assets/music/sound-621.mp3",
+                "/game-source/assets/music/sound-622.mp3",
+                "/game-source/assets/music/sound-623.mp3",
+                "/game-source/assets/music/sound-624.mp3",
+                "/game-source/assets/music/sound-625.mp3",
+                "/game-source/assets/sfx/sound-592.mp3",
+                "/game-source/FortZPoki_1_CustomPreloader.egjdata",
+                "/game-source/FortZPoki_1_CustomPreloader.jssourcemap",
+                "/game-source/lib/default.pak",
+                "/game-source/readme.md",
+                "/game-source/scripts/v2/poki-sdk.egjdata",
+                "/game-source/scripts/v2.313.0/poki-sdk-core-v2.313.0.egjdata"
+            ],
+            "matches": [
+                "https://*.codeplaymaster.com/*"
+            ]
+        }
+    ]
+}
